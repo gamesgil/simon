@@ -1,0 +1,65 @@
+.game-item {
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+#red {
+	background-image: url(gfx/red.png);
+	width: 112px;
+	height: 105px;
+    top: 32px;
+    left: 156px;
+}
+
+#green {
+	background-image: url(gfx/green.png);
+	width: 113px;
+	height: 105px;
+    top: 32px;
+    left: 35px;
+}
+
+#yellow {
+	background-image: url(gfx/yellow.png);
+	width: 113px;
+	height: 113px;
+	top: 144px;
+    left: 35px;
+}
+
+#blue {
+	background-image: url(gfx/blue.png);
+	width: 113px;
+	height: 112px;
+    left: 158px;
+    top: 145px;
+}
+
+#simon {
+	background-image: url(gfx/simon.png);
+	width: 306px;
+	height: 304px;
+}
+
+#btn {
+	position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    top: 103px;
+    left: 150px;
+	opacity: 0;
+	cursor: pointer;
+}
+
+#simon p {
+    color: white;
+    position: relative;
+    top: 140px;
+    left: 130px;
+    width: 20px;
+    height: auto;
+    font-size: 0.8rem;
+    text-align: center;
+}
